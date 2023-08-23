@@ -1,0 +1,131 @@
+:root{
+    --blue:#2273F8
+}
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    transition: all 0.2s linear;
+    text-transform: capitalize;
+}
+
+*::selection{
+    background: var(--blue);
+    color: #fff;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 2rem 7%;
+    background: var(--blue);
+}
+
+header .logo{
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+header .logo i{
+    padding: 0 0.5rem;
+}
+
+header .navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+header .navbar ul li a{
+    font-size: 2rme;
+    margin-left: 2rem;
+    color: #fff;
+    position: relative;
+}
+
+header .navbar ul li a::before{
+    content: '';
+    position: absolute;
+    bottom: -0.5rem;
+    right: 0;
+    width: 0%;
+    height: 0.2rem;
+    background: #fff;
+    transition: 0.2s linear;
+}
+
+header .navbar ul li a.active::before,
+header .navbar ul li a:hover::before{
+    right: 0;
+    width: 100%;
+}
+
+header #menu{
+    font-size: 3rem;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+
+
+/* media queries */
+@media (max-width:768px){
+    html{
+        font-size: 55%;
+    }
+    header #menu{
+        display: block;
+    }
+    header .navbar{
+        position: fixed;
+        top: -120%;
+        left: 0;
+        width: 100%;
+        background: #fff;
+        opacity: 0;
+    }
+    header .navbar ul{
+        padding: 2rem 0;
+        flex-flow: column;
+        justify-content: center;
+    }
+    header .navbar ul li a{
+        font-size: 2.5rem;
+        color: #333;
+        display: block;
+        margin: 1rem 0;
+    }
+    header .navbar ul li a::before{
+        background: #333;
+    }
+    .fa-times{
+        transform: rotate(90deg);
+    }
+    header .navbar.nav-toggle{
+        top: 7.4rem;
+        opacity: 1;
+    }
+}
