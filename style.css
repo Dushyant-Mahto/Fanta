@@ -69,6 +69,13 @@ body{
     margin: 1rem 0;
 }
 
+.title{
+    font-size: 4rem;
+    color: #333;
+    padding: 0 1rem;
+    text-align: center;
+}
+
 header{
     width: 100%;
     display: flex;
@@ -227,6 +234,63 @@ header #menu{
     color: var(--blue);
 }
 
+.features{
+    min-height: 100vh;
+    text-align: center;
+    padding-top: 7rem;
+}
+
+.features .description{
+    padding: 1rem 0;
+    margin: 0 auto;
+    width: 70rem;
+    color: #666;
+    font-size: 1.5rem;
+}
+
+.features .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.features .box-container .box{
+    margin: 2rem;
+    width: 28rem;
+    z-index: 0;
+    position: relative;
+}
+
+.features .box-container .box::before{
+    content: '';
+    position: absolute;
+    top: 32.5%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: var(--blue);
+    height: 10rem;
+    width: 10rem;
+    z-index: -1;
+    box-shadow: 0 0 0 1rem rgba(0, 0, 255, 0.1);
+}
+
+.features .box-container .box i{
+    color: #fff;
+    font-size: 4.5rem;
+    margin: 8rem 0;
+}
+
+.features .box-container .box h3{
+    color: #333;
+    font-size: 2rem;
+}
+
+.features .box-container .box p{
+    color: #666;
+    font-size: 1.2rem;
+    padding: 1rem 0;
+}
 
 
 
@@ -275,6 +339,10 @@ header #menu{
     }
     .home .content{
         text-align: center;
+    }
+    .features .description{
+        width: auto;
+        padding: 1rem;
     }
 }
 
