@@ -87,7 +87,27 @@ header #menu{
     display: none;
 }
 
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: url(./images/homg-img.png) no-repeat;
+    background-size: 140% 85%;
+    background-position: top;
+    padding: 1.5rem 7%;
+    padding-top: 4rem;
+}
 
+.home .image{
+    flex: 1 1 40rem;
+    padding-top: 6rem;
+}
+
+.home .image img{
+    width: 100%;
+}
 
 
 
