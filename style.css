@@ -109,6 +109,23 @@ header #menu{
     width: 100%;
 }
 
+.home .content{
+    flex: 1 1 40rem;
+    padding-top: 5rem;
+}
+
+.home .content h1{
+    font-size: 4rem;
+    color: #fff;
+}
+
+.home .content p{
+    font-size: 1.8rem;
+    color: #eee;
+    padding: 5rem 0;
+}
+
+
 
 
 /* media queries */
