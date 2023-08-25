@@ -337,7 +337,122 @@ header #menu{
 .contact{
     min-height: 100vh;
     text-align: center;
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)) url() no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)) url(./images/Back-ground.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 1rem;
+    padding-top: 8rem;
+}
+
+.contact .heading{
+    background:rgba(0,0,0,.5);
+    color:#fff;
+}
+
+.contact .title{
+    color:#fff;
+}
+
+.contact form{
+    width:85%;
+    margin:1rem auto;
+}
+
+.contact form .inputBox{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact form .inputBox input, .contact form textarea{
+    height:4rem;
+    width:49%;
+    padding:0 1rem;
+    margin:1rem 0;
+    font-size: 2rem;
+    border:.2rem solid #eee;
+    background:none;
+    text-transform: none;
+    color:#fff;
+}
+
+.contact form .inputBox input::placeholder, .contact form textarea::placeholder{
+    color:#ccc;
+}
+
+.contact form .inputBox input:focus, .contact form textarea:focus{
+    border-color:var(--blue);
+}
+
+.contact form textarea{
+    height:20rem;
+    width:100%;
+    padding:1rem;
+    resize: none;
+}
+
+.contact form .btn:hover{
+    background:#fff;
+    color:#333;
+}
+
+.footer{
+    background:#eee;
+}
+
+.footer .box-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer .box-container .box{
+    flex:1 1 30rem;
+    margin:2rem;
+}
+
+.footer .box-container .box h3{
+    font-size: 2.5rem;
+    color:var(--blue);
+}
+
+.footer .box-container .box p{
+    font-size: 1.5rem;
+    color:#333;
+    padding:1rem 0;
+}
+
+.footer .box-container .box p i{
+    padding:0 .5rem;
+    color:var(--blue);
+}
+
+.footer .box-container .box:nth-child(2){
+    text-align: center;
+}
+
+.footer .box-container .box a{
+    font-size: 1.8rem;
+    display:block;
+    color:#333;
+    padding:.5rem 0;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+}
+
+.footer .credit{
+    padding:2rem 1rem;
+    text-align: center;
+    background:#333;
+    color:#eee;
+    font-size: 2rem;
+}
+
+.footer .credit a{
+    color:#fff;
 }
 
 
@@ -390,6 +505,9 @@ header #menu{
         width: auto;
         padding: 1rem;
     }
+    .contact form{
+        width:95%;
+    }
 }
 
 @media (max-width:500px){
@@ -404,5 +522,8 @@ header #menu{
     .about .image img{
         width: 90%;
         height: auto;
+    }
+    .contact form .inputBox input{
+        width:100%; 
     }
 }
