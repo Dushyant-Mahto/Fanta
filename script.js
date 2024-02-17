@@ -16,13 +16,13 @@ tl.to("#orange-cut",{
 }, 'orange')
 tl.to("#orange",{
     width: "15%",
-    top:"160%",
+    top:"170%",
     right: "10%"
 }, 'orange')
 tl.to("#leaf",{
     top:"110%",
     rotate: "130deg",
-    left: "70%"
+    left: "80%"
 }, 'orange')
 tl.to("#leaf2",{
     top:"110%",

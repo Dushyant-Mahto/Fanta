@@ -190,7 +190,7 @@ nav i{
 }
 
 #cocacola{
-    top: -15%;
+    top: -20%;
     position: absolute;
     width: 60%;
     left: 50%;
@@ -199,7 +199,7 @@ nav i{
 }
 
 #pepsi{
-    top: -15%;
+    top: -21%;
     position: absolute;
     width: 85%;
     left: 50%;
@@ -208,7 +208,7 @@ nav i{
 }
 
 .lemon{
-    top: -30%;
+    top: -35%;
     position: absolute;
     left: 50%;
     width: 25vw;
