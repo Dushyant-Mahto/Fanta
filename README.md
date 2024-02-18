@@ -1,6 +1,6 @@
 # Welcome to the Fanta Website Project
 
-![Fanta Website]() 
+![Fanta Website](Fanta image.png) 
 
 ## Introduction
 
