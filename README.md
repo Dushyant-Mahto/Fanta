@@ -2,9 +2,8 @@
 
 ![Fanta Website](https://github.com/Dushyant-Mahto/Fanta/blob/main/Fanta%20image.png)
 <div align="center">
-  ![Fanta Website](https://github.com/Dushyant-Mahto/Fanta/blob/main/Fanta%20Website%20GIF.gif)
+  <img src="https://github.com/Dushyant-Mahto/Fanta/blob/main/Fanta%20Website%20GIF.gif" alt="Fanta Website">
 </div>
-![Fanta Website](https://github.com/Dushyant-Mahto/Fanta/blob/main/Fanta%20Website%20GIF.gif)
 
 ## Introduction
 
