@@ -1,6 +1,6 @@
 # Welcome to the Fanta Website Project
 
-![Fanta Website](Fanta image.png) 
+![Fanta Website](https://github.com/Dushyant-Mahto/Fanta/blob/main/Fanta%20image.png)
 
 ## Introduction
 
